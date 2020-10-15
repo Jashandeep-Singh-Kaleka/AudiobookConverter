@@ -31,23 +31,23 @@ for voice in voices:
     print(" - Age: %s" % voice.age)
     print("\n")
 # The english voices are:
-# Alex - en_US - USA - Male
-# Daniel - en_GB - Britain - Male
-# Fiona - en_scotland - Female
-# Fred - en_US - USA - Male
-# Karen - en_AU - Australia - Female
-# Moira - en_IE - Eire - Female
-# Rishi - en_IN - India - Male
-# Samantha - en_US - USA - Female
-# Tessa - en_ZA - South Africe - Female
-# Veena - en_IN - Female
-# Victoria - en_US - Female
+# Alex - en_US - USA - Male - [0]
+# Daniel - en_GB - Britain - Male - [7]
+# Fiona - en_scotland - Female - [10]
+# Fred - en_US - USA - Male - [11]
+# Karen - en_AU - Australia - Female - [17]
+# Moira - en_IE - Eire - Female - [28]
+# Rishi - en_IN - India - Male - [32]
+# Samantha - en_US - USA - Female - [33]
+# Tessa - en_ZA - South Africe - Female - [37]
+# Veena - en_IN - Female - [40]
+# Victoria - en_US - Female - [41]
 
 # The above references are for my system, that is running Unix/OSx
 # For every system the player will do a scan and provide a list of
 # available voices, initital just the english ones
 
-engine.setProperty('voice', voices[0].id)
+engine.setProperty('voice', voices[11].id)
 engine.setProperty('rate', 150)
 
 engine.say(' This is a voice and rate test')
