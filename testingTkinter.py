@@ -39,6 +39,9 @@ Button1.pack(fill='x')
 Button2 = tkr.Button(player, width=5, height=3, text="STOP", command=stop)
 Button2.pack(fill='x')
 
+# Page Number, Song Name for now
+label1 = tkr.LabelFrame(player, text="Page Number")
+
 
 # Activating the application
 player.mainloop()
