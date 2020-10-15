@@ -1,7 +1,6 @@
 import tkinter as tkr
 import pyttsx3
 
-engine = pyttsx3.init('nsss')
 
 # Window initialization
 player = tkr.Tk(screenName='The Machine can read it to me')
@@ -10,8 +9,6 @@ player = tkr.Tk(screenName='The Machine can read it to me')
 player.geometry("350x350")
 
 # defining actions
-
-
 def play():
     engine.say("Checking the play function, Checking the play function, Checking the play function, Checking the play function, Checking the play function")
     engine.startLoop()
