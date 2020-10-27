@@ -1,8 +1,4 @@
 from gtts import gTTS
-import pygame
-import os
-import tkinter as tkr
-import fitz
 import PIL.Image
 import pytesseract
 from tkinter import filedialog
