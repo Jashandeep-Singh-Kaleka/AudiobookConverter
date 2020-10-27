@@ -41,7 +41,9 @@ Button2.pack(fill='x')
 
 # Page Number, Song Name for now
 label1 = tkr.LabelFrame(player, text="Page Number")
-
+label1.pack(fill="both", expand="yes")
+contents1 = tkr.Label(label1, text = "Page1")
+contents1.pack()
 
 # Activating the application
 player.mainloop()
