@@ -1,0 +1,6 @@
+Display the page, then read that page
+User has the ability to change the page
+When a particular page is selected, read that page,
+Make a mp3 file formatted to that page,
+if that mp3 file already exists, read it from there
+code the mp3 file as [pageNo][voiceId][rate].mp3

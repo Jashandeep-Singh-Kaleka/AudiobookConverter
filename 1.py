@@ -3,6 +3,10 @@ import pyttsx3
 import PyPDF2
 from tkinter.filedialog import *
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ec1b5cd1c4e14c084d225439e924645ac1fbc51c
 # book = open('winner-stands-alone.pdf', 'rb')
 # for active selection of a book
 book = askopenfilename()
@@ -11,7 +15,11 @@ pages = pdfReader.numPages
 print(pages)
 
 for num in range(0, 1):
+<<<<<<< HEAD
     page = pdfReader.getPage(20)
+=======
+    page = pdfReader.getPage(21)
+>>>>>>> ec1b5cd1c4e14c084d225439e924645ac1fbc51c
     text = page.extractText()
     # text = text.lower()
     text = text.replace('\n', '')

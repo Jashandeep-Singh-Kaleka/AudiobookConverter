@@ -1,4 +1,3 @@
-Using python to help me listen to pdfs, since I can't read
 I can't read, so it's a good idea to have a audiobook generator.
 The generator will allow me to listen to any pdf documents, that
 I provide as an input and also convert them to mp3 file to make
