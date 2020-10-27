@@ -30,3 +30,5 @@ mat = fitz.Matrix(zoom_x, zoom_y)
 pix = page.getPixmap(matrix=mat)
 output = os.path.join(final_directory, r"image_to_read.png")
 pix.writePNG(output)
+
+
